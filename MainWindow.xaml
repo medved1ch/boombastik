@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:boombastik"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Бомбер" Height="450" Width="800" Icon="image/alert_bomb_danger_explosive_internet_security_virus_icon_127034.ico">
+        
     <Grid>
         <Button x:Name="tbSt" Content="Стартуем" HorizontalAlignment="Left" Height="27" Margin="468,92,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click"/>
         <ComboBox x:Name="cb1" HorizontalAlignment="Left" Height="27" Margin="309,92,0,0" VerticalAlignment="Top" Width="154"  SelectedIndex="0"/>
